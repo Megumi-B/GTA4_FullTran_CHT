@@ -24,4 +24,4 @@
 - The Lost and Damned: `Grand Theft Auto IV\GTAIV\TLAD\pc\textures\`
 - The Ballad of Gay: `Grand Theft Auto IV\GTAIV\TBoGT\pc\textures\`
 
-將font_chs.png的圖片匯入至該個wtd檔內儲存即可。<br>
+將`font_chs.png`的圖片匯入至該個wtd檔內即可。<br>
