@@ -3,9 +3,16 @@
 #### 說明
 2022年6月公開的GTA4完整版漢化只有簡體中文。而內附的「自定义字库字体工具」亦未能讀取繁體字型，對欲使用繁體中文遊玩的玩家構成不便。因此將簡體中文漢化轉換為繁體中文。<br>
 
+#### 效果圖
+<img src="https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_1.jpg" width="50%"><img src="https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_2.jpg" width="50%">
+<img src="https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_3.jpg" width="50%"><img src="https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_4.jpg" width="50%">
+
 #### 採用的字體
 - [jf open 粉圓](https://github.com/justfont/open-huninn-font)
 - [源泉圓體](https://github.com/ButTaiwan/gensen-font)
+
+#### 更新
+20220804 - 首次發佈
 
 #### 注意
 請先自行備份將被覆蓋的資料和檔案。有任何損失概不負責。<br>
