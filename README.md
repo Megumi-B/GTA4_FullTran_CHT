@@ -45,7 +45,7 @@
 
 #### 欲更換字體
 如欲更換本檔案採用的字體，可以下載`font_cht.psd`檔再作修改。<br>
-匯出透明背景png前請先隱藏「参考網格」圖層，後再利用OpenIV或SparkIV修改分別位於以下三個位置的`fonts.wtd`。<br>
+匯出透明背景png前請先隱藏「参考網格」圖層，後再利用OpenIV或SparkIV修改分別位於以下三個位置的`fonts_chs.wtd`。<br>
 - Niko本篇: `GTAIV\pc\textures\`
 - The Lost and Damned: `GTAIV\TLAD\pc\textures\`
 - The Ballad of Gay Tony: `GTAIV\TBoGT\pc\textures\`
