@@ -53,17 +53,17 @@
 將`font_chs.png`的圖片匯入至該個`.wtd`內即可。
 
 #### Steam Deck額外步驟
-正如漢化組網站提到，需要在Steam的「內容>一般>啟動選項」中填入`WINEDLLOVERRIDES="dinput8.dll=n,b" %command% `，漢化方能生效
-<img src="https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/SteamDeck_LaunchOptions.jpg" width="50%">
+正如漢化組網站提到，需要在Steam的「內容>一般>啟動選項」中填入`WINEDLLOVERRIDES="dinput8.dll=n,b" %command% `，漢化方能生效<br>
+<img src="https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/SteamDeck_LaunchOptions.jpg" width="50%"><br>
 
 #### Steam Deck效果圖
-<img src="https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_SD1.jpg" width="50%"><img src="https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_SD2.jpg" width="50%">
-<img src="https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_SD3.jpg" width="50%"><img src="https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_SD4.jpg" width="50%">
+<img src="https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_SD1.jpg" width="50%"><img src="https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_SD2.jpg" width="50%"><br>
+<img src="https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_SD3.jpg" width="50%"><img src="https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_SD4.jpg" width="50%"><br>
 
 #### 回報
 如有任何疑問、修訂等，歡迎使用Issues回報
 
 #### 相關工具連結
-OpenIV: https://openiv.com/
-SparkIV: https://ahmed605.github.io/SparkIV/
-繁轉簡: https://www.ifreesite.com/gbk-big5-gb2312-utf8.htm
+OpenIV: https://openiv.com/<br>
+SparkIV: https://ahmed605.github.io/SparkIV/<br>
+簡轉繁: https://www.ifreesite.com/gbk-big5-gb2312-utf8.htm<br>
