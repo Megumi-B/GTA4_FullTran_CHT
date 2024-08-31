@@ -4,8 +4,8 @@
 2022年6月公開的GTA4完整版漢化只有簡體中文。而內附的「自定义字库字体工具」亦未能讀取繁體字型，對欲使用繁體中文遊玩的玩家構成不便。因此決定將簡體中文漢化轉換為繁體中文。<br>
 
 #### 效果圖
-<img src="https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_1.jpg" width="50%"><img src="https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_2.jpg" width="50%">
-<img src="https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_3.jpg" width="50%"><img src="https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_4.jpg" width="50%">
+<img src=”https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_1.jpg“ width=”50%“><img src=”https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_2.jpg“ width=”50%“>
+<img src=”https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_3.jpg“ width=”50%“><img src=”https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_4.jpg“ width=”50%“>
 
 #### 採用的開源字體
 - [jf open 粉圓](https://github.com/justfont/open-huninn-font)
@@ -36,6 +36,7 @@
 
 將`font_chs.png`的圖片匯入至該個`.wtd`內即可。
 <br>
+<hr><br>
 </details>
 
 #### 230704新版本步驟
@@ -53,12 +54,50 @@
 將`font_chs.png`的圖片匯入至該個`.wtd`內即可。
 
 #### Steam Deck額外步驟
-正如漢化組網站提到，需要在Steam的「內容>一般>啟動選項」中填入`WINEDLLOVERRIDES="dinput8.dll=n,b" %command% `，漢化方能生效<br>
-<img src="https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/SteamDeck_LaunchOptions.jpg" width="50%"><br>
+正如漢化組網站提到，需要在Steam的「內容>一般>啟動選項」中填入`WINEDLLOVERRIDES=”dinput8=n,b“ %command% `，漢化方能生效<br>
+<img src=”https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/SteamDeck_LaunchOptions.jpg“ width=”50%“><br>
 
 #### Steam Deck效果圖
-<img src="https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_SD1.jpg" width="50%"><img src="https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_SD2.jpg" width="50%"><br>
-<img src="https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_SD3.jpg" width="50%"><img src="https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_SD4.jpg" width="50%"><br>
+<img src=”https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_SD1.jpg“ width=”50%“><img src=”https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_SD2.jpg“ width=”50%“><br>
+<img src=”https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_SD3.jpg“ width=”50%“><img src=”https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_SD4.jpg“ width=”50%“><br>
+
+
+<details><summary>附加：Steam Deck安裝Liberty's Legacy Trainer</summary>
+
+* 以下教學僅供參考
+
+##### 檔案版本
+| 項目 | 使用版本 | 網址 |
+| --- | --- | --- |
+| Steam版本 GTA4 CE | 1.2.0.59 | // |
+| Liberty‘s Legacy Trainer | 2.4 | https://www.nexusmods.com/gta4/mods/100 |
+| GTA4 .Net ScriptHook (by HazardX) | 1.7.1.7b | https://hazardx.com/files/gta4_net_scripthook-83 |
+| Ultimate ASI Loader (by thirteenAG) | 7.7.0 | https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases |
+| Compatibility Patch For GTA4 CE (by LMS) | 0.4 | https://www.lcpdfr.com/downloads/gta4mods/g17media/26726-compatibility-patch-for-gta-iv-complete-edition/ |
+
+##### 步驟
+1. 先下載上方列出的檔案<br>
+2. 按下方表格所示，將相關文件拖放至遊戲根目錄
+ 
+| 來源 | 檔案名稱 |
+| --- | --- |
+| GTAIV_Complete_Edition_Fix_0_4.zip | AdvancedHook.dll<br>AdvancedHookInit.asi<br>aCompleteEditionHook.asi |
+| Libertys Legacy Trainer 24.zip | Liberty's Legacy【文件夾】<br>Liberty‘s Legacy.asi |
+| scripthookdotnet_v1.7.1.7b.zip | ScriptHook.dll |
+| Ultimate-ASI-Loader.zip | dinput8.dll |
+ 
+3. 安裝ASI Loader的`dinput8.dll`時或會要求取代先前安裝漢化後已有的同名dll檔案，請按「Overwrite」取代即可
+4. 最後在Steam的「內容>一般>啟動選項」中填入`WINEDLLOVERRIDES=”dinput8,ScriptHook,AdvancedHook=n,b“ %command% `<br>
+5. 完成安裝後，首次載入存檔後會彈出修改器的歡迎畫面。如沒有則表示安裝失敗，可考慮改用其他ASI Loader<br>
+
+##### 懶人包
+可直接下載[已整理的7z檔](https://github.com/Megumi-B/GTA4_FullTran_CHT/releases/download/Zip/LLT_SD_240901.7z)，拖放至遊戲根目錄即可
+<br>
+
+##### 修改器效果圖<br>
+<img src=”https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_SDTrainer1.jpg“ width=”50%“><img src=”https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_SDTrainer2.jpg“ width=”50%“><br>
+<hr><br>
+</details>
 
 #### 回報
 如有任何疑問、修訂等，歡迎使用Issues回報
