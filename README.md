@@ -4,8 +4,8 @@
 2022年6月公開的GTA4完整版漢化只有簡體中文。而內附的「自定义字库字体工具」亦未能讀取繁體字型，對欲使用繁體中文遊玩的玩家構成不便。因此決定將簡體中文漢化轉換為繁體中文。<br>
 
 #### 效果圖
-<img src=”https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_1.jpg“ width=”50%“><img src=”https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_2.jpg“ width=”50%“>
-<img src=”https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_3.jpg“ width=”50%“><img src=”https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_4.jpg“ width=”50%“>
+<img src="https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_1.jpg" width="50%"><img src="https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_2.jpg" width="50%">
+<img src="https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_3.jpg" width="50%"><img src="https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_4.jpg" width="50%">
 
 #### 採用的開源字體
 - [jf open 粉圓](https://github.com/justfont/open-huninn-font)
@@ -55,12 +55,11 @@
 
 #### Steam Deck額外步驟
 正如漢化組網站提到，需要在Steam的「內容>一般>啟動選項」中填入`WINEDLLOVERRIDES=”dinput8=n,b“ %command% `，漢化方能生效<br>
-<img src=”https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/SteamDeck_LaunchOptions.jpg“ width=”50%“><br>
+<img src="https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/SteamDeck_LaunchOptions.jpg" width="50%"><br>
 
 #### Steam Deck效果圖
-<img src=”https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_SD1.jpg“ width=”50%“><img src=”https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_SD2.jpg“ width=”50%“><br>
-<img src=”https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_SD3.jpg“ width=”50%“><img src=”https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_SD4.jpg“ width=”50%“><br>
-
+<img src="https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_SD1.jpg" width="50%"><img src="https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_SD2.jpg" width="50%"><br>
+<img src="https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_SD3.jpg" width="50%"><img src="https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_SD4.jpg" width="50%"><br>
 
 <details><summary>附加：Steam Deck安裝Liberty's Legacy Trainer</summary>
 
@@ -95,7 +94,7 @@
 <br>
 
 ##### 修改器效果圖<br>
-<img src=”https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_SDTrainer1.jpg“ width=”50%“><img src=”https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_SDTrainer2.jpg“ width=”50%“><br>
+<img src="https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_SDTrainer1.jpg" width="50%"><img src="https://github.com/Megumi-B/GTA4_FullTran_CHT/raw/main/Showcase_SDTrainer2.jpg" width="50%"><br>
 <hr><br>
 </details>
 
